@@ -1,3 +1,20 @@
+.phoneImage {
+    position: relative; 
+    background-image: url('https://sunandstars.app/media/SmartPhone.png'); 
+    background-repeat: no-repeat; 
+    width: 800px; 
+    height: 397px; 
+    max-width: 800px; 
+    max-height:397px
+}
+
+.subSubHeaderText {
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+
 @media only screen and (max-width: 1666px) {
     .sas-shrinkable {
           

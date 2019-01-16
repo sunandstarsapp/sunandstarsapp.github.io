@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    font-size: 15pt;
+}
+
+.headerLogo {
+    height: 384px;
+    background-position: center; 
+    background-image: url('/media/Logo_Wide.png');
+}
+
+.subHeaderText {
+    margin-top: 60px;
+    /*max-width: 720px;    */
+}
+section {
+    padding-top: 30px;
+}
+
+.bk-sun {
+    background-color: #FFFDF7;
+}
+
+.bk-moon {
+    background-color: #000A17;
+    color: white;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.screen-reader-text {
+    position: absolute;
+    top: -1000em;
+}
