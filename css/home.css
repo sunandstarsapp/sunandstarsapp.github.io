@@ -23,28 +23,35 @@
   
   /* For Mobile */
   @media screen and (max-width: 540px) {
+    h1.subHeaderText {
+      font-size: 2rem !important;
+    }
+    h3.subSubHeaderText {
+      font-size: 1.5rem !important;
+    }
     .sas-shrinkable {
-      -moz-transform: scale(0.25, 0.25); 
-      -webkit-transform: scale(0.25, 0.25); 
-      -o-transform: scale(0.25, 0.25);
-      -ms-transform: scale(0.25, 0.25);
-      transform: scale(0.25, 0.25); 
+      -moz-transform: scale(0.4, 0.4); 
+      -webkit-transform: scale(0.4, 0.4); 
+      -o-transform: scale(0.4, 0.4);
+      -ms-transform: scale(0.4, 0.4);
+      transform: scale(0.4, 0.4); 
       -moz-transform-origin: top left;
       -webkit-transform-origin: top left;
       -o-transform-origin: top left;
       -ms-transform-origin: top left;
       transform-origin: top left;
     }
+
   }
   
   /* For Tablets */
   @media screen and (min-width: 540px) and (max-width: 780px) {
     .sas-shrinkable {
-      -moz-transform: scale(0.5, 0.5); 
-      -webkit-transform: scale(0.5, 0.5); 
-      -o-transform: scale(0.5, 0.5);
-      -ms-transform: scale(0.5, 0.5);
-      transform: scale(0.5, 0.5); 
+      -moz-transform: scale(0.6, 0.6); 
+      -webkit-transform: scale(0.6, 0.6); 
+      -o-transform: scale(0.6, 0.6);
+      -ms-transform: scale(0.6, 0.6);
+      transform: scale(0.6, 0.6); 
       -moz-transform-origin: top left;
       -webkit-transform-origin: top left;
       -o-transform-origin: top left;
@@ -54,13 +61,13 @@
   }
   
   /* For Tablets */
-  @media screen and (min-width: 780px) and (max-width: 1670px) {
+  @media screen and (min-width: 780px) and (max-width: 1200px) {
     .sas-shrinkable {
-      -moz-transform: scale(0.75, 0.75); 
-      -webkit-transform: scale(0.75, 0.75); 
-      -o-transform: scale(0.75, 0.75);
-      -ms-transform: scale(0.75, 0.75);
-      transform: scale(0.75, 0.75); 
+      -moz-transform: scale(0.9, 0.9); 
+      -webkit-transform: scale(0.9, 0.9); 
+      -o-transform: scale(0.9, 0.9);
+      -ms-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9); 
       -moz-transform-origin: top left;
       -webkit-transform-origin: top left;
       -o-transform-origin: top left;
