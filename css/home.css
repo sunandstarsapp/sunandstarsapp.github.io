@@ -1,77 +1,77 @@
 .phoneImage {
-    position: relative; 
-    background-image: url('https://sunandstars.app/media/SmartPhone.png'); 
-    background-repeat: no-repeat; 
-    width: 800px; 
-    height: 397px; 
-    max-width: 800px; 
-    max-height:397px
+  position: relative;
+  background-image: url("https://sunandstars.app/media/SmartPhone.png");
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 397px;
+  max-width: 800px;
+  max-height: 397px;
+}
+
+.main-heading {
+  padding-bottom: 60px;
 }
 
 .subSubHeaderText {
   color: grey;
   margin-top: 30px;
-  margin-bottom: 100px;
 }
 
-
 @media only screen and (max-width: 1666px) {
-    .sas-shrinkable {
-          
-    }
+  .sas-shrinkable {
   }
-  
-  /* For Mobile */
-  @media screen and (max-width: 540px) {
-    h1.subHeaderText {
-      font-size: 2rem !important;
-    }
-    h3.subSubHeaderText {
-      font-size: 1.5rem !important;
-    }
-    .sas-shrinkable {
-      -moz-transform: scale(0.4, 0.4); 
-      -webkit-transform: scale(0.4, 0.4); 
-      -o-transform: scale(0.4, 0.4);
-      -ms-transform: scale(0.4, 0.4);
-      transform: scale(0.4, 0.4); 
-      -moz-transform-origin: top left;
-      -webkit-transform-origin: top left;
-      -o-transform-origin: top left;
-      -ms-transform-origin: top left;
-      transform-origin: top left;
-    }
+}
 
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  h1.subHeaderText {
+    font-size: 2rem !important;
   }
-  
-  /* For Tablets */
-  @media screen and (min-width: 540px) and (max-width: 780px) {
-    .sas-shrinkable {
-      -moz-transform: scale(0.6, 0.6); 
-      -webkit-transform: scale(0.6, 0.6); 
-      -o-transform: scale(0.6, 0.6);
-      -ms-transform: scale(0.6, 0.6);
-      transform: scale(0.6, 0.6); 
-      -moz-transform-origin: top left;
-      -webkit-transform-origin: top left;
-      -o-transform-origin: top left;
-      -ms-transform-origin: top left;
-      transform-origin: top left;
-    }
+  h3.subSubHeaderText {
+    font-size: 1.5rem !important;
   }
-  
-  /* For Tablets */
-  @media screen and (min-width: 780px) and (max-width: 1200px) {
-    .sas-shrinkable {
-      -moz-transform: scale(0.9, 0.9); 
-      -webkit-transform: scale(0.9, 0.9); 
-      -o-transform: scale(0.9, 0.9);
-      -ms-transform: scale(0.9, 0.9);
-      transform: scale(0.9, 0.9); 
-      -moz-transform-origin: top left;
-      -webkit-transform-origin: top left;
-      -o-transform-origin: top left;
-      -ms-transform-origin: top left;
-      transform-origin: top left;
-    }
+  .sas-shrinkable {
+    -moz-transform: scale(0.4, 0.4);
+    -webkit-transform: scale(0.4, 0.4);
+    -o-transform: scale(0.4, 0.4);
+    -ms-transform: scale(0.4, 0.4);
+    transform: scale(0.4, 0.4);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
   }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .sas-shrinkable {
+    -moz-transform: scale(0.6, 0.6);
+    -webkit-transform: scale(0.6, 0.6);
+    -o-transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .sas-shrinkable {
+    -moz-transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+  }
+}
