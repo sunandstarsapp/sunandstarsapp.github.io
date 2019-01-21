@@ -1,40 +1,53 @@
 body {
-    margin: 0px;
-    font-size: 15pt;
+  margin: 0px;
+  font-size: 15pt;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .headerLogo {
-    height: 384px;
-    background-position: center; 
-    background-image: url('/media/Logo_Wide.png');
+  height: 384px;
+  background-position: center;
+  background-image: url("/media/Logo_Wide.png");
 }
 
 .subHeaderText {
-    margin-top: 60px;
-    /*max-width: 720px;    */
+  margin-top: 60px;
+  /*max-width: 720px;    */
 }
 section {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .bk-sun {
-    background-color: #FFFDF7;
+  background-color: #fffdf7;
 }
 
 .bk-moon {
-    background-color: #000A17;
-    color: white;
+  background-color: #000a17;
+  color: white;
 }
 
 .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    align-items: center;
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
 
 .screen-reader-text {
-    position: absolute;
-    top: -1000em;
+  position: absolute;
+  top: -1000em;
 }
